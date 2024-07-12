@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7e6f2; /* Soft pink background */
+    background-color: #blue; 
     color: #333;
 }
 
 header {
-    background-color: #ffccd5; /* Soft pink header background */
+    background-color: #ffccd5; 
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -37,7 +37,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff6f91; /* Darker pink for hover effect */
+    color: #ff6f91; 
 }
 
 main {
@@ -50,11 +50,11 @@ main section {
 }
 
 main h2 {
-    color: #ff6f91; /* Darker pink for headings */
+    color: #ff6f91;
 }
 
 footer {
-    background-color: #ffccd5; /* Soft pink footer background */
+    background-color: #ffccd5; 
     color: white;
     text-align: center;
     padding: 1rem 0;
