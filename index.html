@@ -3,52 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asiyah Ahmad</title>
+    <title>Asiyah Ahmad - Knowledge Graph Researcher</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Asiyah Ahmad</h1>
+    <header class="bg-pink text-white text-center py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8 text-left">
+                    <h1>Asiyah Ahmad</h1>
+                </div>
+                <div class="col-md-4 text-right">
+                    <img src="images/your-image.jpg" alt="Asiyah Ahmad" class="profile-image">
+                </div>
+            </div>
+        </div>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html"></a></li>
-<!--             <li><a href="research.html">Research</a></li>-->
-            <li><a href="publications.html">Publications</a></li> 
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Asiyah Ahmad</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>I am a fourth-year Ph.D. Candidate at the University of North Carolina at Chapel Hill studying knowledge graphs and methodologies for managing and analyzing large data sets. My research focuses on developing innovative solutions to enhance data integration, retrieval, and usability within various domains, including the biomedical field.</p>
+    <main class="container my-5">
+        <section class="mb-5">
+            <h2 class="text-center">About Me</h2>
+            <p class="text-center">I am a fourth-year Ph.D. Candidate at the University of North Carolina at Chapel Hill studying knowledge graphs and methodologies for managing and analyzing large data sets. My research focuses on developing innovative solutions to enhance data integration, retrieval, and usability within various domains, including the biomedical field.</p>
         </section>
         <section>
-            <h2>Research</h2>
-            <h3>Current Projects</h3>
-            <ul>
-<!--                 <li><strong>Project 1: Enhancing Knowledge Graph Usability</strong>
-                    <p>This project focuses on developing user-friendly interfaces and tools to improve the usability of knowledge graphs. We aim to create solutions that allow users to easily navigate and interact with large and complex datasets.</p>
-                </li>
-                <li><strong>Project 2: Integrating Heterogeneous Data Sources</strong>
-                    <p>In this project, we work on integrating data from diverse sources into cohesive knowledge graphs. This involves developing algorithms and techniques to ensure data compatibility, consistency, and accessibility.</p>
-                </li>
-                <li><strong>Project 3: Knowledge Graph Applications in Biomedicine</strong>
-                    <p>This research explores the application of knowledge graphs in the biomedical field, focusing on improving data-driven decision-making and personalized medicine through enhanced data integration and analysis.</p>
-                </li> -->
-            </ul>
-            <h3>Research Interests</h3>
-            <ul>
-                <li>Knowledge Graphs</li>
-                <li>Data Integration</li>
-                <li>Graph Theory</li>
-                <li>Machine Learning</li>
-                <li>Biomedical Informatics</li>
-                <li>Big Data Analytics</li>
-            </ul>
+            <h2 class="text-center">Research</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Current Projects</h3>
+                    <ul>
+                        <li><strong>Project 1: Enhancing Knowledge Graph Usability</strong>
+                            <p>This project focuses on developing user-friendly interfaces and tools to improve the usability of knowledge graphs. We aim to create solutions that allow users to easily navigate and interact with large and complex datasets.</p>
+                        </li>
+                        <li><strong>Project 2: Integrating Heterogeneous Data Sources</strong>
+                            <p>In this project, we work on integrating data from diverse sources into cohesive knowledge graphs. This involves developing algorithms and techniques to ensure data compatibility, consistency, and accessibility.</p>
+                        </li>
+                        <li><strong>Project 3: Knowledge Graph Applications in Biomedicine</strong>
+                            <p>This research explores the application of knowledge graphs in the biomedical field, focusing on improving data-driven decision-making and personalized medicine through enhanced data integration and analysis.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-right">
+                    <h3>Research Interests</h3>
+                    <ul class="list-unstyled">
+                        <li>Knowledge Graphs</li>
+                        <li>Data Integration</li>
+                        <li>Graph Theory</li>
+                        <li>Machine Learning</li>
+                        <li>Biomedical Informatics</li>
+                        <li>Big Data Analytics</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="bg-light text-center py-3">
         <p>&copy; 2024 Asiyah Ahmad. All rights reserved.</p>
     </footer>
     <script src="js/scripts.js"></script>
