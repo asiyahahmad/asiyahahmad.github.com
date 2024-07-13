@@ -182,6 +182,11 @@ form button:hover {
     object-fit: cover;
     border-radius: 50%;
 }
+.contact-info {
+            margin-top: 10px;
+}
+        
+
 /* Change hyperlink color */
 a {
     color: #ff6f91; 
