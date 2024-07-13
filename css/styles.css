@@ -182,4 +182,13 @@ form button:hover {
     object-fit: cover;
     border-radius: 50%;
 }
+/* Change hyperlink color */
+a {
+    color: #ff6f91; /* Replace with your desired color code */
+}
+
+a:hover {
+    color: #f7e6f2; /* Optional: Change color on hover */
+}
+
 
