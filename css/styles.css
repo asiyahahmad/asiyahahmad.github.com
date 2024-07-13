@@ -184,11 +184,11 @@ form button:hover {
 }
 /* Change hyperlink color */
 a {
-    color: #ff6f91; /* Replace with your desired color code */
+    color: #ff6f91; 
 }
 
 a:hover {
-    color: #f7e6f2; /* Optional: Change color on hover */
+    color: #gray; 
 }
 
 
