@@ -177,15 +177,17 @@ form button:hover {
     }
 }
 .profile-image {
-    width: 155px;
-    height: 200px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
-    border-radius: 50%; 
+    margin-bottom: 1rem;
 }
 
-.contact-info {
-    margin-top: 10px;
+.contact-info p {
+    margin: 5px 0; 
 }
+
         
 
 /* Change hyperlink color */
