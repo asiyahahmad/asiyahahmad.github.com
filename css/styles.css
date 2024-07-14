@@ -199,7 +199,7 @@ a:hover {
     color: #gray; 
 }
 
-/* Flexbox styling for about section */
+/* /* Flexbox styling for about section */
 .align-items-center {
     display: flex;
     align-items: left;
@@ -218,5 +218,5 @@ a:hover {
     flex-direction: column;
     align-items: left;
     margin-top: 10px;
-}
+} */
 
