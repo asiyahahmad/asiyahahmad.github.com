@@ -199,24 +199,4 @@ a:hover {
     color: #gray; 
 }
 
-/* /* Flexbox styling for about section */
-.align-items-center {
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    gap: 1rem;
-}
-
-.col-md-4 {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-}
-
-.contact-info {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    margin-top: 10px;
-} */
 
