@@ -8,14 +8,14 @@
 /* Body Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0; /* Soft pink background */
+    background-color: #f0f0f0; /* light gray
     color: #333;
     line-height: 1.6;
 }
 
 /* Header Styling */
 header {
-    background-color: #ffccd5; /* Soft pink header background */
+    background-color: #f0f0f0; /* Soft pink header background */
     color: white;
     padding: 1rem 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
