@@ -8,7 +8,7 @@
 /* Body Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f7e6f2; /* Soft pink background */
+    background-color: #f0f0f0; /* Soft pink background */
     color: #333;
     line-height: 1.6;
 }
@@ -51,7 +51,7 @@ nav ul {
     display: flex;
     justify-content: center;
     padding: 0.5rem 0;
-    background-color: #ffccd5; /* Soft pink background */
+    background-color: #f0f0f0; /* Soft pink background */
 }
 
 nav ul li {
@@ -67,7 +67,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-    color: #ff6f91; /* Darker pink for hover and active state */
+    color: #333333; 
 }
 
 /* Main Content Styling */
@@ -83,7 +83,7 @@ main section {
 }
 
 main h2 {
-    color: #ff6f91; /* Darker pink for headings */
+    color: #333333; 
     margin-bottom: 1rem;
 }
 
@@ -93,7 +93,7 @@ main p {
 
 /* Footer Styling */
 footer {
-    background-color: #ffccd5; /* Soft pink footer background */
+    background-color: #f0f0f0; 
     color: white;
     text-align: center;
     padding: 1rem 0;
@@ -137,7 +137,7 @@ form textarea {
 
 form button {
     padding: 0.5rem 2rem;
-    background-color: #ff6f91;
+    background-color: #1a73e8;
     border: none;
     border-radius: 4px;
     color: white;
@@ -146,7 +146,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #ff4a68; 
+    background-color: #1a73e8; 
 }
 
 /* Responsive Design */
@@ -192,7 +192,7 @@ form button:hover {
 
 /* Change hyperlink color */
 a {
-    color: #ff6f91; 
+    color: #1a73e8; 
 }
 
 a:hover {
