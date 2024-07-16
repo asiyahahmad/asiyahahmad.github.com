@@ -8,7 +8,7 @@
 /* Body Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0; /* light gray
+    background-color: #e6e6fa; /* light gray
     color: #333;
     line-height: 1.6;
 }
@@ -51,7 +51,7 @@ nav ul {
     display: flex;
     justify-content: center;
     padding: 0.5rem 0;
-    background-color: #fff5e1; /* Soft pink background */
+    background-color: #e6e6fa; /* Soft pink background */
 }
 
 nav ul li {
