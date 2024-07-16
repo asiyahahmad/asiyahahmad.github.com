@@ -8,14 +8,14 @@
 /* Body Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e6e6fa; /* light gray
+    background-color: #FFFFFF; 
     color: #333;
     line-height: 1.6;
 }
 
 /* Header Styling */
 header {
-    background-color: #f0f0f0; 
+    background-color: #FFFFFF; 
     color: white;
     padding: 1rem 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
