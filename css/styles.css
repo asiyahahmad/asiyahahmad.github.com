@@ -51,7 +51,7 @@ nav ul {
     display: flex;
     justify-content: center;
     padding: 0.5rem 0;
-    background-color: #A7C7E7; /* Soft pink background */
+    background-color: #4682B4; /* Soft pink background */
 }
 
 nav ul li {
@@ -137,7 +137,7 @@ form textarea {
 
 form button {
     padding: 0.5rem 2rem;
-    background-color: #d2afff;
+    background-color: #4682B4;
     border: none;
     border-radius: 4px;
     color: white;
@@ -146,7 +146,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #d2afff; 
+    background-color: #4682B4; 
 }
 
 /* Responsive Design */
