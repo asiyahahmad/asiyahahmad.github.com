@@ -204,7 +204,7 @@ mb-5 {
     padding-top: 10px;  /* Adjust padding to a small value if necessary */
 
 }
-.text-center {
+.profile-section {
     display: flex;
     align-items: center;
     margin: 20px;
