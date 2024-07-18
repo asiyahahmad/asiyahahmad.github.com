@@ -192,7 +192,7 @@ form button:hover {
 
 /* Change hyperlink color */
 a {
-    color: #A7C7E7; 
+    color: #7393B3; 
 }
 
 a:hover {
@@ -222,7 +222,7 @@ mb-5 {
 }
 .contact-info a {
     text-decoration: none;
-    color: #0073b1;
+    color: #7393B3;
 }
 /* .about-me {
     margin-left: 20px;
